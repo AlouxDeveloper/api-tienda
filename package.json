@@ -1,0 +1,29 @@
+{
+  "name": "curso-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon server.js"
+  },
+  "dependencies": {
+    "aloux-iam": "^0.0.124",
+    "body-parser": "^2.2.2",
+    "dot-env": "^0.0.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^5.13.3",
+    "swagger-ui-express": "^4.6.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^11.0.0",
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": "22.16.0"
+  }
+}
